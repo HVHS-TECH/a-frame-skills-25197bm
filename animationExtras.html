@@ -15,7 +15,8 @@
         Third, create a new animation for position. It should start at 0 2 -3 and go to 0 6 -3
         -->
 <a-sphere
-    
+    position="0 2 -3"
+   
     animation="
         property:opacity ;
         from: 0;
@@ -29,17 +30,17 @@
         to:#ff00ff;
         dur: 10000;
         loop: true; 
-
         "
-       
-    animation="
-        property: position;
+      
+      animation="
+        property: property;
         from:0 2 -3;
         to:0 6 -3;
         dur:2000;
-        loop: true;
-        dir:alternate 
+        loop: true; 
+        dir:alternate
         "
+    
 </a-sphere>
         </a-scene>
     </body>
